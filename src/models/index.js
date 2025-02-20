@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+ * @fileoverview Loads all Sequelize models dynamically and sets up their associations.
+ */
+
 const fs = require('fs');
 const path = require('path');
 const sequelize = require('../config/database');

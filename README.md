@@ -28,8 +28,7 @@ The Event Registration API is a simple RESTful API that allows users to view, cr
 - **Database:** PostgreSQL
 - **ORM:** Sequelize
 - **Validation:** Joi (with custom validators)
-- **Testing:** Jest, Supertest
-- **Other Tools:** bcrypt for password hashing, nodemon for development
+- **Testing:** Jest
 
 ## Setup Instructions
 ### 1. Clone the Repository

@@ -6,6 +6,14 @@ const uuid = (value, helpers) => {
     return value;
 };
 
+/**
+ * Validates a password ensuring it has a minimum length of 8 characters and contains at least
+ * one letter and one number.
+ *
+ * @param {string} value - The password string to validate.
+ * @param {Object} helpers - Joi helpers object used to generate custom error messages.
+ * @returns {string} The validated password if it meets all criteria.
+ */
 const password = (value, helpers) => {
     if (value.length < 8) {
         return helpers.message('password must be at least 8 chars');

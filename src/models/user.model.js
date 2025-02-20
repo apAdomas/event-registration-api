@@ -31,10 +31,6 @@ module.exports = (sequelize, DataTypes) => {
         }
     );
 
-    /**
-     * User can have many registrations
-     * @param models
-     */
     User.associate = (models) => {
         User.hasMany(models.Registration, {foreignKey: 'user_id'});
     };
