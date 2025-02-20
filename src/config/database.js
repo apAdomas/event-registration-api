@@ -23,5 +23,6 @@ const sequelize = new Sequelize(SQL_DATABASE_NAME, SQL_USERNAME, SQL_PASSWORD, {
     },
     logging: false,
 });
+console.log({ SQL_SSL_REQUIRE, SQL_SSL_REJECT_UNAUTHORIZED });
 
 module.exports = sequelize;
