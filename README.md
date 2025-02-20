@@ -33,17 +33,21 @@ The Event Registration API is a simple RESTful API that allows users to view, cr
 
 ## Setup Instructions
 ### 1. Clone the Repository
->git clone https://github.com/apAdomas/event-registration-api.git
+```git clone https://github.com/apAdomas/event-registration-api.git```
  
->cd event-registration-api
+```cd event-registration-api```
 
 ### 2. Install Dependencies
->npm install
+```npm install```
 
 ### 3. Copy the `.env.example` file to create `.env` file:
-> cp .env.example .env  
-
-### 4. Change `SQL_USERNAME`, `SQL_PASSWORD`, `SQL_DATABASE_NAME`, `SQL_HOST`
-
+```cp .env.example .env```
+### 4. Edit `.env` file and set up database credentials
+```sh
+SQL_USERNAME=your_username
+SQL_PASSWORD=your_password
+SQL_DATABASE_NAME=your_database
+SQL_HOST=your_host
+```
 ### 5. Start the server
-> npm run dev
+`npm run dev` 
