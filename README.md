@@ -50,3 +50,6 @@ SQL_HOST=your_host
 ```
 ### 5. Start the server
 `npm run dev` 
+
+### 6. Run tests
+`npm test` 
